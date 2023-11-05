@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ApiUserpostManagementApplication {
+public class UserPostManagementApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ApiUserpostManagementApplication.class, args);
+		SpringApplication.run(UserPostManagementApplication.class, args);
 	}
 
 }
