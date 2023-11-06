@@ -52,11 +52,13 @@ public class UserPostController {
     }
 
     @DeleteMapping("/user-post/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     Mono<MessageDTO>  deleteUser(@PathVariable Long id) {
         return userPostService.deleteUser(id);
     }
 
     @DeleteMapping("/post-user/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     Mono<MessageDTO>  deletePost(@PathVariable Long id) {
         return userPostService.deletePost(id);
     }

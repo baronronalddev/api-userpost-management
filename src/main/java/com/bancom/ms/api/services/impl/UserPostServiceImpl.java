@@ -26,7 +26,6 @@ import java.util.Optional;
 
 
 @Service
-@Slf4j
 public class UserPostServiceImpl implements UserPostService {
 
     @Autowired
